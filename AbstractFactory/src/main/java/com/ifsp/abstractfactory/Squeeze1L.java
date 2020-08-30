@@ -1,7 +1,4 @@
-package abstracFactory;
-
-
-import abstracFactory.SqueezeTermica;
+package com.ifsp.abstractfactory;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -16,6 +13,6 @@ import abstracFactory.SqueezeTermica;
 public class Squeeze1L implements SqueezeTermica{
     @Override
     public void exibirInfoTermica() {
-        System.out.println("Modelo: Squeeze 1 Litro\nFábrica: Sports\nCategoria: Termica");    
+        System.out.println("Modelo: Squeeze 1 Litro\nFábrica: Nord\nCategoria: Termica");    
     }    
 }

@@ -1,10 +1,4 @@
-package abstracFactory;
-
-
-import abstracFactory.Squeeze500ml;
-import abstracFactory.Squeeze750ml;
-import abstracFactory.SqueezeComum;
-import abstracFactory.SqueezeTermica;
+package com.ifsp.abstractfactory;
 
 /*
  * To change this license header, choose License Headers in Project Properties.

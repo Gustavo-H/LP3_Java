@@ -1,7 +1,4 @@
-package abstracFactory;
-
-
-import abstracFactory.SqueezeComum;
+package com.ifsp.abstractfactory;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -13,9 +10,10 @@ import abstracFactory.SqueezeComum;
  *
  * @author GustavoHenriquePinhe
  */
-public class Squeeze750ml implements SqueezeComum{
+public class Squeeze500ml implements SqueezeTermica{
+
     @Override
-    public void exibirInfoComum() {
-        System.out.println("Modelo: Squeeze 750ml\nFábrica: Sports\nCategoria: Comum");
-    } 
+    public void exibirInfoTermica() {
+        System.out.println("Modelo: Squeeze 500ml\nFábrica: Sports\nCategoria: Termica");
+    }    
 }
