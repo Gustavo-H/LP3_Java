@@ -14,10 +14,7 @@ E a terceira consiste em representar cada valor em porcetagem do total
 Alteracoes no conjunto 1 deveram ser refletidas nos demais. 
 Este sistema resolve este problema.
 */
-/**
- *
- * @author gustavo
- */
+
 public class Main {
 
     public static void main(String[] args) {

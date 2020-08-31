@@ -19,12 +19,8 @@ Squeezes de 1 litro na gategoria termica.
 Squeezes de 800ml na categoria comum.
 
 O presente sistema faz o gerenciamento do sistemas dessa empresa.
+ */
 
- */
-/**
- *
- * @author gustavo
- */
 public class Main {
 
     public static void main(String[] args) {
