@@ -3,11 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package model;
+
+import java.util.List;
 
 /**
  *
  * @author GustavoHenriquePinhe
  */
-public class VeiculoDAO {
-    
+public interface IProdutoDAO {
+
+    public List lerProdutos();
+
+    public void create(Produto p);
+
+    public void update(Produto p);
+
+    public void delete(Produto p);
 }
